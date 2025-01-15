@@ -26,7 +26,13 @@ SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'your-default-secret-key')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['shark-app-6s9mn.ondigitalocean.app', 'jeroentheunissen.com']
+ALLOWED_HOSTS = [
+    'shark-app-6s9mn.ondigitalocean.app',
+    'jeroentheunissen.com',
+    'localhost',
+    '127.0.0.1',
+    'https://134.209.225.128/'
+]
 
 
 
