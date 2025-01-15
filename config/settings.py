@@ -31,7 +31,7 @@ ALLOWED_HOSTS = [
     'jeroentheunissen.com',
     'localhost',
     '127.0.0.1',
-    'https://134.209.225.128/'
+    '209.38.106.52'
 ]
 
 
