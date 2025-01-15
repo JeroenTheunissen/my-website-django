@@ -21,12 +21,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-2m+mqyr!4tllc%r_+ghz#@eca78vj6)4p3(b3r-6fr=a**pabu'
+SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'your-default-secret-key')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['goldfish-app.ondigitalocean.app', 'jeroentheunissen.com']
+ALLOWED_HOSTS = ['goldfish-app-lgwey.ondigitalocean.app', 'jeroentheunissen.com']
 
 
 
