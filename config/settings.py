@@ -29,9 +29,10 @@ DEBUG = False
 ALLOWED_HOSTS = [
     'shark-app-6s9mn.ondigitalocean.app',
     'jeroentheunissen.com',
+    'www.jeroentheunissen.com',
     'localhost',
     '127.0.0.1',
-    '209.38.106.52'
+    '164.92.210.110',
 ]
 
 
